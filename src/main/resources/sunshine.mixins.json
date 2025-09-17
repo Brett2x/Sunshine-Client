@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "package": "cc.sunshine.mixin.impl",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ClientConnectionMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "EntityMixin",
+    "EntityVelocityUpdateS2CPacketMixin",
+    "InGameHudMixin",
+    "KeyBindingMixin",
+    "KeyboardInputMixin",
+    "KeyboardMixin",
+    "LivingEntityMixin",
+    "MinecraftClientMixin",
+    "MultiplayerScreenMixin",
+    "PlayerEntityMixin",
+    "PlayerInteractEntityC2SPacketMixin",
+    "PlayerMoveC2SPacketMixin",
+    "RenderTickCounterMixin",
+    "ChatScreenMixin",
+    "MouseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
